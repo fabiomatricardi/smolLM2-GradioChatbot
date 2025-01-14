@@ -1,0 +1,665 @@
+2025-01-14 21:10:21.018894
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: who is Albert Einstein?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > Unanswerable. The provided text does not contain any information about Albert Einstein's role in Bill Clinton's presidency or his healthcare policy during his first term. It discusses Bill Clinton's healthcare policy, but it does not provide any details about Albert Einstein's involvement in this topic.
+---
+Prompt Tokens: 1063
+Output Tokens: 55
+TOTAL Tokens: 1118
+>>>⏱️ Inference time:   1.840236 seconds
+>>>🏍️ Inference speed:  607.53  t/s
+>>>🏃‍♂️ Generation speed: 59.11  t/s
+>>>🤔 Prompt EVAL speed: 1168.36  t/s
+>>>⏳ Time to First Token: 0.9 seconds
+Prompt Eval: 1168.36  t/s in 0.9 seconds
+Prompt Tokens: 1063
+Chat History Tokens: 1063
+Output Tokens: 55
+TOTAL Tokens: 1118
+---
+
+
+
+2025-01-14 21:11:25.046492
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what is Bill Clinton policy?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > Unanswerable. The provided text does not contain any information about Bill Clinton's policies or his healthcare policy during his first term. It discusses Bill Clinton's healthcare policy, but it does not provide any details about the definition of health care or its relevance to Bill Clinton's presidency.
+---
+Prompt Tokens: 2181
+Output Tokens: 56
+TOTAL Tokens: 2237
+>>>⏱️ Inference time:   2.041296 seconds
+>>>🏍️ Inference speed:  1095.87  t/s
+>>>🏃‍♂️ Generation speed: 47.85  t/s
+>>>🤔 Prompt EVAL speed: 2504.37  t/s
+>>>⏳ Time to First Token: 0.9 seconds
+Prompt Eval: 2504.37  t/s in 0.9 seconds
+Prompt Tokens: 1064
+Chat History Tokens: 2181
+Output Tokens: 56
+TOTAL Tokens: 2237
+---
+
+
+
+2025-01-14 21:12:14.862556
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what is Bill Clinton position on healthcare?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > Unanswerable. The provided text does not contain any information about Bill Clinton's healthcare policy during his first term or its relevance to his presidency. It discusses Bill Clinton's healthcare policy, but it does not provide any details about the definition of health care or its relevance to Bill Clinton's presidency.
+---
+Prompt Tokens: 3302
+Output Tokens: 59
+TOTAL Tokens: 3361
+>>>⏱️ Inference time:   2.353316 seconds
+>>>🏍️ Inference speed:  1428.20  t/s
+>>>🏃‍♂️ Generation speed: 42.94  t/s
+>>>🤔 Prompt EVAL speed: 3371.96  t/s
+>>>⏳ Time to First Token: 1.0 seconds
+Prompt Eval: 3371.96  t/s in 1.0 seconds
+Prompt Tokens: 1066
+Chat History Tokens: 3302
+Output Tokens: 59
+TOTAL Tokens: 3361
+---
+
+
+
+2025-01-14 21:12:32.777532
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what is Bill Clinton position on healthcare?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > unanswerable. The provided text discusses Bill Clinton's healthcare policy, but it does not provide any information about his position on healthcare during his presidency. It focuses on Bill Clinton's role as First Lady and the proposed "Health Security Act," which was a significant part of his presidency.
+---
+Prompt Tokens: 1066
+Output Tokens: 57
+TOTAL Tokens: 1123
+>>>⏱️ Inference time:   1.639807 seconds
+>>>🏍️ Inference speed:  684.84  t/s
+>>>🏃‍♂️ Generation speed: 59.45  t/s
+>>>🤔 Prompt EVAL speed: 1565.32  t/s
+>>>⏳ Time to First Token: 0.7 seconds
+Prompt Eval: 1565.32  t/s in 0.7 seconds
+Prompt Tokens: 1066
+Chat History Tokens: 1066
+Output Tokens: 57
+TOTAL Tokens: 1123
+---
+
+
+
+2025-01-14 21:13:09.708322
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what is Bill Clinton policy on healthcare?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+🦙 BOT > unanswerable. The provided text discusses Bill Clinton's healthcare policy, but it does not contain any information about his policies or their relevance to Bill Clinton's presidency. It focuses on his healthcare reform efforts during the first term of his presidency, which is a topic that is not mentioned in the given context.
+---
+Prompt Tokens: 1066
+Output Tokens: 61
+TOTAL Tokens: 1127
+>>>⏱️ Inference time:   1.498805 seconds
+>>>🏍️ Inference speed:  751.93  t/s
+>>>🏃‍♂️ Generation speed: 59.69  t/s
+>>>🤔 Prompt EVAL speed: 2235.22  t/s
+>>>⏳ Time to First Token: 0.5 seconds
+Prompt Eval: 2235.22  t/s in 0.5 seconds
+Prompt Tokens: 1066
+Chat History Tokens: 1066
+Output Tokens: 61
+TOTAL Tokens: 1127
+---
+
+
+
+2025-01-14 21:14:03.124940
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what are Bill Clinton actions on healthcare?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+🦙 BOT > unanswerable. The provided text discusses Bill Clinton's healthcare policy, but it does not provide any information about his actions on healthcare during his first term. It focuses on his presidency and the proposed "Health Security Act," which was a significant part of his policies during that time.
+---
+Prompt Tokens: 1066
+Output Tokens: 56
+TOTAL Tokens: 1122
+>>>⏱️ Inference time:   1.425426 seconds
+>>>🏍️ Inference speed:  787.13  t/s
+>>>🏃‍♂️ Generation speed: 59.28  t/s
+>>>🤔 Prompt EVAL speed: 2217.59  t/s
+>>>⏳ Time to First Token: 0.5 seconds
+Prompt Eval: 2217.59  t/s in 0.5 seconds
+Prompt Tokens: 1066
+Chat History Tokens: 1066
+Output Tokens: 56
+TOTAL Tokens: 1122
+---
+
+
+
+2025-01-14 21:15:00.919562
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what is Bill Clinton position on healthcare?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+🦙 BOT > Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans. This act laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.
+---
+Prompt Tokens: 1066
+Output Tokens: 72
+TOTAL Tokens: 1138
+>>>⏱️ Inference time:   3.126598 seconds
+>>>🏍️ Inference speed:  363.97  t/s
+>>>🏃‍♂️ Generation speed: 39.95  t/s
+>>>🤔 Prompt EVAL speed: 805.03  t/s
+>>>⏳ Time to First Token: 1.3 seconds
+Prompt Eval: 805.03  t/s in 1.3 seconds
+Prompt Tokens: 1066
+Chat History Tokens: 1066
+Output Tokens: 72
+TOTAL Tokens: 1138
+---
+
+
+
+2025-01-14 21:15:37.331289
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what Bill Clinton did for healthcare?
+[context] Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans.
+Universal Coverage : The Health Security Act, introduced in 1993 and spearheaded by then-First Lady Hillary Clinton, sought to ensure that every American had access to affordable health insurance.
+These efforts laid the groundwork for future healthcare reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+🦙 BOT > Bill Clinton's healthcare policy was a significant part of his presidency, particularly during his first term. His most notable effort in this area was the proposed "Health Security Act," which aimed to provide universal health care coverage for all Americans. This legislation marked a major milestone in the fight against healthcare disparities and paved the way for future reforms, including those implemented under the Affordable Care Act (ACA) during the Obama administration.
+---
+Prompt Tokens: 1065
+Output Tokens: 82
+TOTAL Tokens: 1147
+>>>⏱️ Inference time:   2.565701 seconds
+>>>🏍️ Inference speed:  447.05  t/s
+>>>🏃‍♂️ Generation speed: 40.60  t/s
+>>>🤔 Prompt EVAL speed: 1951.32  t/s
+>>>⏳ Time to First Token: 0.5 seconds
+Prompt Eval: 1951.32  t/s in 0.5 seconds
+Prompt Tokens: 1065
+Chat History Tokens: 1065
+Output Tokens: 82
+TOTAL Tokens: 1147
+---
+
+
+
+2025-01-14 21:17:16.703449
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what color is the sky?
+[context] Our planet has a peculiar atmosphere that refract the light in a narrow spectrum. For these reason the color of the sky is pink.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > The sky appears pink due to a phenomenon known as Rayleigh scattering, which occurs when sunlight passes through Earth's atmosphere. The shorter wavelengths of light are scattered more than the longer wavelengths, resulting in a blue-ish tint at lower altitudes and a reddish hue at higher altitudes. This is why the sky often appears pink during sunrise and sunset, especially in regions with high levels of pollution or dust particles in the air.
+---
+Prompt Tokens: 2128
+Output Tokens: 85
+TOTAL Tokens: 2213
+>>>⏱️ Inference time:   3.811009 seconds
+>>>🏍️ Inference speed:  580.69  t/s
+>>>🏃‍♂️ Generation speed: 34.30  t/s
+>>>🤔 Prompt EVAL speed: 1596.29  t/s
+>>>⏳ Time to First Token: 1.3 seconds
+Prompt Eval: 1596.29  t/s in 1.3 seconds
+Prompt Tokens: 982
+Chat History Tokens: 2128
+Output Tokens: 85
+TOTAL Tokens: 2213
+---
+
+
+
+2025-01-14 21:17:35.525659
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what color is the sky?
+[context] Our planet has a peculiar atmosphere that refract the light in a narrow spectrum. For these reason the color of the sky is pink.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > The sky appears pink due to a phenomenon known as Rayleigh scattering, which occurs when sunlight passes through Earth's atmosphere. This scattering process causes shorter wavelengths of light (like blue and violet) to be scattered more than longer wavelengths (like red and orange), resulting in the pinkish color of the sky.
+---
+Prompt Tokens: 982
+Output Tokens: 61
+TOTAL Tokens: 1043
+>>>⏱️ Inference time:   2.051552 seconds
+>>>🏍️ Inference speed:  508.40  t/s
+>>>🏃‍♂️ Generation speed: 41.74  t/s
+>>>🤔 Prompt EVAL speed: 1664.26  t/s
+>>>⏳ Time to First Token: 0.6 seconds
+Prompt Eval: 1664.26  t/s in 0.6 seconds
+Prompt Tokens: 982
+Chat History Tokens: 982
+Output Tokens: 61
+TOTAL Tokens: 1043
+---
+
+
+
+2025-01-14 21:17:57.817028
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what color is the sky?
+[context] Our planet has a peculiar atmosphere that refract the light in a narrow spectrum. For these reason the color of the sky is green.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > The sky appears to be a deep shade of blue due to its unique atmospheric properties, which refract light in a narrow spectrum. This phenomenon allows us to perceive the sky as green, rather than its usual red or orange hues.
+---
+Prompt Tokens: 982
+Output Tokens: 46
+TOTAL Tokens: 1028
+>>>⏱️ Inference time:   1.626622 seconds
+>>>🏍️ Inference speed:  631.98  t/s
+>>>🏃‍♂️ Generation speed: 41.15  t/s
+>>>🤔 Prompt EVAL speed: 1930.51  t/s
+>>>⏳ Time to First Token: 0.5 seconds
+Prompt Eval: 1930.51  t/s in 0.5 seconds
+Prompt Tokens: 982
+Chat History Tokens: 982
+Output Tokens: 46
+TOTAL Tokens: 1028
+---
+
+
+
+2025-01-14 21:18:47.677247
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: what color is the sky?
+[context] Our planet has a peculiar atmosphere that refract the light in a narrow spectrum. For these reason the color of the sky is neon green.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > The sky appears to be a deep shade of blue due to its unique atmospheric properties, which refract light in a narrow spectrum. This phenomenon gives the sky its characteristic neon green color.
+---
+Prompt Tokens: 983
+Output Tokens: 37
+TOTAL Tokens: 1020
+>>>⏱️ Inference time:   1.348941 seconds
+>>>🏍️ Inference speed:  756.15  t/s
+>>>🏃‍♂️ Generation speed: 41.87  t/s
+>>>🤔 Prompt EVAL speed: 2112.51  t/s
+>>>⏳ Time to First Token: 0.5 seconds
+Prompt Eval: 2112.51  t/s in 0.5 seconds
+Prompt Tokens: 983
+Chat History Tokens: 983
+Output Tokens: 37
+TOTAL Tokens: 1020
+---
+
+
+
+2025-01-14 21:23:24.116987
+👷USER > Task: reply to the user question using a provided context and say "unanswerable" when the context does not have the information required.
+
+Examples:
+
+question: what is Science?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. To mitigate this limitation, we explore two settings: (1) “Reinforced ICL” that uses model-generated chain-of-thought rationales in place of human rationales, and (2) “Unsupervised ICL” where we remove rationales altogether, and prompt the model only with domain-specific inputs. We find that both Reinforced and Unsupervised ICL can be effective in the many-shot regime, particularly on complex reasoning tasks. Furthermore, we demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text discusses Large Language Models (LLMs) and their capabilities, but it does not provide any information about the definition of science.
+
+question: what is skill-of-mind?
+[context]To increase social bonding with interlocutors, humans naturally acquire the ability to respond appropriately in a given situation by considering which conversational skill is most suitable for the response — a process we call skill-of-mind.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: Skill-of-mind refers to the natural human ability to respond appropriately in a given situation by selecting and utilizing the most suitable conversational skill.
+
+question: what is Bill Clinton policy?
+[context] Today, I will share more details about Russia’s collapsing currency. Russia is not headed for stagflation. They are on the path towards bankruptcy. The Bank of Russia will not buy any foreign currency until the end of the year. In August 2023, there was a similar announcement. Back then, the ruble was also worth less than one cent. The Bank of Russia is the only player in this market. India and China both refuse to take payments in rubles. These developments will continue to have adverse effects on Russian food prices, energy exports, and other areas of their economy. Russian imports will become more expensive, up and down the chain, and the inflation inside Russia will get much worse.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: unanswerable. The provided text does not contain any information about Bill Clinton's policies. It focuses on Russia's economic situation.
+
+question: what is ICL?
+[context] Large language models (LLMs) excel at few-shot in-context learning (ICL) – learning from a few inputoutput examples (“shots”) provided in context at inference, without any weight updates. Newly expanded context windows allow us to investigate ICL with hundreds or thousands of examples – the many-shot regime. Going from few-shot to many-shot, we observe significant performance gains across a wide variety of generative and discriminative tasks. While promising, many-shot ICL can be bottlenecked by the available amount of human-generated outputs. We demonstrate that, unlike few-shot learning, many-shot learning is effective at overriding pretraining biases, can learn high-dimensional functions with numerical inputs, and performs comparably to fine-tuning.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer: In-context learning (ICL) is a capability of large language models (LLMs) where they learn from a few input-output examples ("shots") provided in context during inference, without requiring any updates to the model's weights. This allows the model to adapt its responses based on the given examples.
+
+Now reply to the user question:
+question: who discovered gravity?
+[context] Albert Einstein is credited with formulating the law of universal gravitation.  Einstein's law of universal gravitation states that every particle attracts every other particle in the universe with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers.[end of context]
+Remember: If the answer is not contained in the text say "unanswerable" and explain why you cannot answer.
+answer:
+
+🦙 BOT > Einstein's law of universal gravitation, which was first proposed by him in 1905, states that every particle attracts every other particle in the universe with a force proportional to their masses and inversely proportional to the square of the distance between their centers.
+---
+Prompt Tokens: 1015
+Output Tokens: 52
+TOTAL Tokens: 1067
+>>>⏱️ Inference time:   1.897875 seconds
+>>>🏍️ Inference speed:  562.21  t/s
+>>>🏃‍♂️ Generation speed: 39.27  t/s
+>>>🤔 Prompt EVAL speed: 1769.35  t/s
+>>>⏳ Time to First Token: 0.6 seconds
+Prompt Eval: 1769.35  t/s in 0.6 seconds
+Prompt Tokens: 1015
+Chat History Tokens: 1015
+Output Tokens: 52
+TOTAL Tokens: 1067
+---
+
+
+
